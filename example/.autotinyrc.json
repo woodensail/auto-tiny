@@ -1,0 +1,9 @@
+{
+  "keys": [
+    "***"
+  ],
+  "imgPatterns": [
+    "./public/*"
+  ],
+  "watermark": "tiny"
+}

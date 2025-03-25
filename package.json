@@ -1,0 +1,24 @@
+{
+  "name": "auto-tiny",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "auto-tiny": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example-init": "cd example && node ../index.js init",
+    "example-run": "cd example && node ../index.js run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "crc": "^4.3.2",
+    "glob": "10.4.2",
+    "lodash": "^4.17.21",
+    "tinify": "^1.7.1"
+  }
+}
